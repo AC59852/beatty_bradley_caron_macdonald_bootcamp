@@ -1,0 +1,111 @@
+.hidden {
+    display: none;
+    }
+    
+    #header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    
+    #logoSmall {
+        background-color: black;
+        height: 25px;
+        width: 12%;
+    }
+    
+    .topNav {
+        background-color: black;
+        height: 25px;
+        width: 12%;
+    }
+    
+    #hero {
+        height: 150px;
+        background-color: #636363;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .largeLogo {
+        background-color: #c4c0bf;
+        margin-top: 38px;
+        height: 82px; 
+        width: 80%;
+    }
+
+.ladder{
+background-image: URL(../images/ladder.png);
+background-size: 15%;
+background-repeat: no-repeat;
+}
+
+.desc{
+    height: 200px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+
+}
+
+.desc h3{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.desc p{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.descBtn{
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+margin-bottom: 20px;
+
+}
+
+.btn {
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    height: 18px !important;
+}
+
+
+
+.about {
+    background-color: green;
+    height: 60px;
+    width: 58%;
+    margin-top: -16px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.aboutTeam p{
+
+    margin-top: 15px;
+}
+
+
+
+.ladder2 {
+    background-position: 100% , 0 , 0 , 0;
+}
+
+.portfolio {
+    margin-left: 0;
+}
+
+.portAbout {
+    order: -1;
+}
