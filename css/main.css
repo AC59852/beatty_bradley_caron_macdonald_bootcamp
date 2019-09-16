@@ -1,0 +1,32 @@
+.animation{
+    width: 28%;
+}
+
+.whiteBox {
+    background-color: white;
+    width: 28%;
+    height: 20px;
+    visibility: hidden;
+    position: relative;
+    top: -75px;
+    animation: reveal 4s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes reveal {
+    0% {width: 0; visibility: visible;}
+    50% {width: 50%}
+    100% {width: 0;}
+}
+
+.wb2 {
+    animation-delay: 0.4s;
+}
+
+.wb3 {
+    animation-delay: 0.6s;
+}
+
+.wb4 {
+    animation-delay: 0.8s;
+}
