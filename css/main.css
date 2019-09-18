@@ -1,95 +1,367 @@
-.hidden {
-    display: none;
+body {
+    font-family: 'Muli', sans-serif;
 }
 
-#text {
+    .hidden {
+        display: none;
+    }
+    
+    #header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    #logoSmall {
+        height: 25px;
+        max-width: 100%;
+        position: absolute;
+        left: 10px;
+    }
+    
+    #logoSmall img {
+        width: 20%;
+    }
+    
+    .topNav img {
+        width: 40px;
+    }
+        
+    
+    #hero {
+        height: 150px;
+        background-image: url(../images/hero_background.png);
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .largeLogo {
+        height: auto;
+        display: flex;
+    }
+
+      
+    .largeLogo img {
+       width: 70%;
+       margin: 50px auto;
+    }
+
+    .ladder {
+        background-size: 21%;
+        background-repeat: no-repeat;
+        background-image: url(../images/ladder1.png);
+        background-position: 3% 1%;
+    }
+
+.desc {
+    height: 200px;
     display: flex;
-    justify-content: flex-end;
-    height: 600px;
-}
-
-.text2 {
-    margin-right: auto;
-}
-
-.text3 {
-    margin-top: auto;
-}
-
-.animation{
-    width: 28%;
-}
-
-.bioText {
-    background-color: #333;
-    color: white;
-    border: solid 3px limegreen;
-}
-
-.whiteBox {
-    background-color: black;
-    background-repeat: no-repeat;
-    width: 0%;
-    height: 55px;
-    animation: hideLeft 1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    position: absolute;
-    top: 10px;
-    animation-fill-mode: forwards;
-}
-
-.blackBox {
-    background-color: black;
-    position: absolute;
-    top: 48%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 55px;
+    flex-direction: column;
+    width: 70%;
     margin-left: auto;
-    animation: revealLeft 1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    animation-fill-mode: forwards;
 }
 
-.hide {
-    animation: hideLeft 1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-    
+.desc h3 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+    padding-bottom: 14px;
+}
+
+.desc p {
+    text-align: center;
+    border: solid #6f5279 2px;
+    font-size: 11px;
+    width: 80%;
+    line-height: 18px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.descBtn {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.teambtn {
+    border: solid #611f58 4px;
+    background-color: #3a1348;
+    color: white;
+}
+
+.btn {
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    text-decoration: none;
+    height: 18px !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+
+.btn2 {
+    background-color: #fdfcfd;
+    border: solid #611f58 4px;
+}
+
+.about {
+    height: 60px;
+    width: 58%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.aboutTeam p{
+    margin-top: 15px;
 }
 
 
-@keyframes hideLeft {
-    0% {width: 0; visibility: hidden;}
-    100% {width: 30%; visibility: visible;}
-    
+
+.ladder2 {
+    background-position: 95% 0;
+    background-size: 17%;   
+    background-color: #3a1348;
+    background-image: url(../images/ladder2.png);
 }
 
-@keyframes revealLeft {
-    0% {width: 30%; visibility: visible;}
-    100% {width: 0; visibility: hidden;}
-}
-.wb2, .wb6{
-    animation-delay: 0.4s;
-    margin-top: 33px;
+.portfolio {
+    margin-left: 0;
+    color: white;
 }
 
-.wb3, .wb7 {
-    animation-delay: 0.6s;
-    margin-top: 68px;
+.portfolio h3 {
+    padding-top: 20px !important;
+    margin-bottom: 10px;
 }
 
-.wb4, .wb8 {
-    animation-delay: 0.8s;
-    margin-top: 103px;
+.portAbout {
+    order: -1;
+    color: white;
+    font-size: 13px;
+    margin: 0 auto;
 }
 
+.portText1 {
+    border: solid white 2px;
+    font-size: 11px;
+    width: 80%;
+    line-height: 18px;
+    margin: 0 auto;
+    padding: 10px;
+}
 
-#buttons {
+.companyGen {
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column !important; 
+    max-width: 50%;
+}
+
+.contact p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3.7vw;
+    margin-top: 16px;
+    line-height: 5vw;
+}
+
+@media screen and (min-width: 550px) {
+    .contact p {
+        font-size: 20px;
+    }
+}
+
+.contact p span {
+    display: inline-block;
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto auto; 
+}
+
+.socials img {
+    width: 23%;
+    max-width: 50px;
+}
+
+.mail {
+    width: 50%;
+    max-width: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.mail img {
+    max-width: 100%;
+}
+
+/* start of about page */
+
+.aboutHero {
+    background-image: url(../images/kat_bck.jpg);
+    background-size: cover;
+}
+
+.carousel {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 25px;
+    position: relative;
+    top: 20px;
+}
+
+.name1, .name3 {
+    margin: auto 0;
+}
+
+.aboutMain {
+    display: flex;
+    padding-top: 75px;
+    justify-content: space-around;
+}
+
+.aboutText {
     width: 45%;
 }
 
-.button {
-    background-color: #333;
-    height: 25px;
-    width: 65px;
+.aboutText h2, h4 {
+    margin-bottom: 4px;
+    padding: 3px;
+}
+
+#name, #logo, #para {
+    border: solid white 2px;
+}
+
+#para span {
+    color: #b97bb4;
+    text-transform: uppercase;
+}
+
+.aboutPerson {
+    width: 50%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.character {
+    max-width: 100%;
+}
+
+.character img {
+    width: 100%;
+}
+
+#name {
+    background-color: rgba(184, 153, 204, 0.3);
+    width: 88%;
+}
+
+#role {
+    background-color: rgba(184, 153, 204, 0.3);
+    width: 94%;
+}
+
+#para {
+    background-color: rgba(184, 153, 204, 0.3);
+    padding: 10px 5px 20px 5px;
+    line-height: 3.4vw;
+}
+.aboutText h2 {
+    font-size: 4vw;
+}
+
+.aboutText h4 {
+    font-size: 2.5vw;
+}
+
+.aboutText p {
+    font-size: 3vw;
+}
+
+.name {
+    background-color: lightgray;
+    opacity: 0.4;
+    padding: 5px 9px 5px 9px;
+}
+
+.name p {
+    font-size: 3vw;
+}
+
+.name2, .name4 {
+    margin-top: auto;
+}
+.aboutBtn {
+    max-width: 10%;
+}
+
+.about1 {
+    transform: scaleX(-1);
+}
+
+.aboutBtn img {
+    width: 100%;
+}
+
+/* about media queries */
+@media screen and (min-width: 600px) {
+    .aboutText {
+        margin-top: 75px;
+        transition: margin-top 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+}
+@media screen and (min-width: 808px) {
+    .aboutText {
+        max-width: 800px;
+    }
+    #name {
+        font-size: 3vw;
+    }
+    #para, #role {
+        font-size: 2vw;
+    }
+    .aboutBtn {
+        max-width: 75px;
+    }
+    .carousel {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1060px) {
+    .carousel {
+        max-width: 70%;
+    }
+
+    #role {
+        font-size: 2vw;
+        
+    }
+    #para {
+        line-height: 2.8vw;
+        position: relative;
+        top: 8%;
+    }
+}
+
+@media screen and (min-width: 1334px) {
+    .name p {
+        font-size: 38px;
+    }
 }
