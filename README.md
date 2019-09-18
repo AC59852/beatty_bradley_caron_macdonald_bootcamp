@@ -1,4 +1,4 @@
 # Usage of This Branch
-Use this branch for testing out the animations on the about page.
+This is Austin Caron's design branch
 <br>
-This branch is not made for merging with master, just to work out kinks.
+This branch is used for the remaining CSS and HTML left over.
