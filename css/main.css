@@ -1,3 +1,4 @@
+/* start of Index page */
 body {
     font-family: 'Muli', sans-serif;
 }
@@ -364,4 +365,64 @@ margin-top: 20px;
     .name p {
         font-size: 38px;
     }
+}
+
+/*start of Contact page */
+
+.hands img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+}
+
+
+.contactSlogan {
+    background-color: #dbccd9;
+    border: solid 2px #611f58;
+}
+
+.contactSlogan h2 {
+    font-size: 13vw;
+    width: 85%;
+    text-align: center;
+    margin: 0  auto;
+    padding: 20px 0 20px 0;
+}
+
+#contactIcon {
+    max-width: 10%;
+    margin: 45px 15px 25px 0;
+}
+
+#contactIcon img {
+    width: 100%;
+}
+
+#contactSect {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+   margin: 0 auto;
+}
+
+#contactName, #contactEmail {
+    width: 80%;
+    padding: 6px 0 6px 0;
+}
+
+#submitBtn {
+   margin-left: auto;
+   margin-top: 15px;
+   margin-bottom: 25px;
+   background-color: #dbccd9;
+   height: 25px;
+   padding-top: 2px;
+   border-radius: 50px;
+}
+
+#submitBtn a {
+    padding: 0 55px 0 55px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #3b0c4f;
 }

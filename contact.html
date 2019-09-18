@@ -30,20 +30,25 @@
     
             <section class="heroContact">
 
-           <div class="hands"></div>
+           <div class="hands">
+           <img src="images/team.png" alt="team working together">
+        </div>
            <div class="contactSlogan">
                <h2>connecting to your creativity</h2>
            </div>
 </section>
 
 <section id="contactSect">
+    <div id="contactIcon">
+        <img src="images/contactMail.png" alt="Mail Icon">
+    </div>
     <form id="contactForm" action="form.php" method="post"></form>
     
     <label for="name">Name</label>
-    <input type="text" required name="fullName" size="40" placeholder="Required" id="name">
+    <input type="text" required name="fullName" size="40" placeholder="Required" id="contactName">
 
     <label for="email">Email</label>
-    <input type="email" required size="40" placeholder="Required" id="email">
+    <input type="email" required size="40" placeholder="Required" id="contactEmail">
 
     <label for="submitMsg">Comments</label>
     <textarea name="comment" required id="submitMsg" cols="30" rows="10" placeholder="required"></textarea>
@@ -53,39 +58,27 @@
     </div>
 </section>
 
-
-
-
-
-
-
-
-
-        <footer>
-                <section id="companyInfo">
-                        <h2 class="hidden">company info</h2>
-                    <div class="companyGen">
-                            <div class="contact">
-                                <p><span>960 Western Rd. N, Suite 22</span>
-                                    <span>London, Ontario L9E 3R5</span>
-                                    <span>create@plakdigital.com</span>
-                                    <span>| 905 536 2354 |</span></p>
-                                    <div class="socials">
-                                        <img src="images/facebook.png" alt="facebook logo">
-                                        <img src="images/twitter.png" alt="twitter logo">
-                                        <img src="images/instagram.png" alt="instagram logo">
-                                        <img src="images/linkedin.png" alt="linkedin logo">
-                                        </div>
-                            </div>
-                                <div class="mail">
-                                    <div class="mailBtn">
-                
-                               </div>
-                            </div>
-                
-                
-                    </div>
-                </section>
-                </footer>
+<footer>
+    <section id="companyInfo">
+            <h2 class="hidden">company info</h2>
+        <div class="companyGen">
+                <div class="contact">
+                    <p><span>960 Western Rd. N, Suite 22</span>
+                        <span>London, Ontario L9E 3R5</span>
+                        <span>create@plakdigital.com</span>
+                        <span>| 905 536 2354 |</span></p>
+                        <div class="socials">
+                            <img src="images/facebook.png" alt="facebook logo">
+                            <img src="images/twitter.png" alt="twitter logo">
+                            <img src="images/instagram.png" alt="instagram logo">
+                            <img src="images/linkedin.png" alt="linkedin logo">
+                        </div>
+                </div>
+                    <div class="mail">
+                    <img src="images/mail_icon.png" alt="">
+                </div>
+        </div>
+    </section>
+    </footer>
 </body>
 </html>
