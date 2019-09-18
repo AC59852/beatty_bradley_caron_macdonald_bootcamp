@@ -426,3 +426,39 @@ margin-top: 20px;
     text-decoration: none;
     color: #3b0c4f;
 }
+
+/* start of portfolio */
+
+#portGallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 45px auto;
+}
+
+.portBtn {
+    max-width: 40%;
+    margin-bottom: 35px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 4px 10px 0 rgba(0,0,0,0.2) !important;
+}
+
+.portBtn a img {
+    width: 100%;
+    max-width: 240px;
+}
+
+@media screen and (min-width: 1060px) {
+    .portBtn a img {
+        max-width: 400px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .portBtn a img {
+        max-width: 350px;
+    }
+    .portBtn {
+        max-width: 30%;
+    }
+}
