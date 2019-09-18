@@ -2,42 +2,85 @@
     display: none;
 }
 
+#text {
+    display: flex;
+    justify-content: flex-end;
+    height: 600px;
+}
+
+.text2 {
+    margin-right: auto;
+}
+
+.text3 {
+    margin-top: auto;
+}
+
 .animation{
     width: 28%;
 }
 
+.bioText {
+    background-color: #333;
+    color: white;
+    border: solid 3px limegreen;
+}
+
 .whiteBox {
-    background-color: white;
-    width: 28%;
-    height: 35px;
-    visibility: hidden;
+    background-color: black;
+    background-repeat: no-repeat;
+    width: 0%;
+    height: 55px;
+    animation: hideLeft 1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     position: absolute;
-    top: 0;
-    margin-top: 18px;
-    animation: reveal 2s ease-in-out;
+    top: 10px;
     animation-fill-mode: forwards;
 }
 
-@keyframes reveal {
-    0% {width: 0; visibility: visible;}
-    50% {width: 50%}
-    100% {width: 0; display: none;}
+.blackBox {
+    background-color: black;
+    position: absolute;
+    top: 48%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 55px;
+    margin-left: auto;
+    animation: revealLeft 1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-fill-mode: forwards;
 }
 
-.wb2 {
+.hide {
+    animation: hideLeft 1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    
+}
+
+
+@keyframes hideLeft {
+    0% {width: 0; visibility: hidden;}
+    100% {width: 30%; visibility: visible;}
+    
+}
+
+@keyframes revealLeft {
+    0% {width: 30%; visibility: visible;}
+    100% {width: 0; visibility: hidden;}
+}
+.wb2, .wb6{
     animation-delay: 0.4s;
-    margin-top: 40px;
+    margin-top: 33px;
 }
 
-.wb3 {
+.wb3, .wb7 {
     animation-delay: 0.6s;
-    margin-top: 75px;
+    margin-top: 68px;
 }
 
-.wb4 {
+.wb4, .wb8 {
     animation-delay: 0.8s;
-    margin-top: 107px;
+    margin-top: 103px;
 }
+
 
 #buttons {
     display: flex;
