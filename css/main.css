@@ -1,4 +1,14 @@
 /* start of Index page */
+
+@font-face {
+    font-family: '3dumb';
+    src: url('../fonts/3dumb-webfont.woff') format('woff'),
+         url('../fonts/3dumb-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     font-family: 'Muli', sans-serif;
 }
@@ -382,11 +392,16 @@ margin-top: 20px;
 }
 
 .contactSlogan h2 {
-    font-size: 13vw;
+    font-size: 12vw;
     width: 85%;
     text-align: center;
     margin: 0  auto;
     padding: 20px 0 20px 0;
+    line-height: 45px;
+}
+
+.contactSlogan h3 {
+    display: none;
 }
 
 #contactIcon {
@@ -399,10 +414,42 @@ margin-top: 20px;
 }
 
 #contactSect {
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+
+#contactSect h2 {
+    font-family: '3dumb';
+    color: #3a1348;
+}
+
+#contactSect h2, h3{
+    text-transform: uppercase;
+    color: #3a1348;
+}
+
+#contactForm {
     width: 90%;
     display: flex;
     flex-direction: column;
-   margin: 0 auto;
+    margin: 0 auto; 
+    max-width: 700px;
+}
+
+
+#contactForm input{
+    height: 30px;
+    border: solid 1px #3a1348;
+    font-size: 16px;
+    padding-left: 5px; 
+    margin-bottom: 10px;
+}
+#contactForm textarea{
+    height: 210px;
+    border: solid 1px #3a1348;
+    font-size: 16px;
+    padding-left: 5px; 
+
 }
 
 #contactName, #contactEmail {
@@ -411,6 +458,8 @@ margin-top: 20px;
 }
 
 #submitBtn {
+   text-align: center;
+   width: 25%;
    margin-left: auto;
    margin-top: 15px;
    margin-bottom: 25px;
@@ -418,14 +467,148 @@ margin-top: 20px;
    height: 25px;
    padding-top: 2px;
    border-radius: 50px;
+   max-width: 140px;
 }
 
 #submitBtn a {
-    padding: 0 55px 0 55px;
     font-size: 12px;
     text-decoration: none;
     color: #3b0c4f;
 }
+
+/* start of contact Media Queries*/
+
+@media screen and (min-width: 378px) {
+    .contactSlogan h2 {
+        line-height: 55px;
+    }
+}
+
+@media screen and (min-width: 471px) {
+    .contactSlogan h2 {
+        line-height: 65px;
+    }
+}
+
+@media screen and (min-width: 558px) {
+    .contactSlogan h2 {
+        line-height: 80px;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .contactSlogan h2 {
+        line-height: 95px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #contactSect {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+    }
+
+    .contactSlogan h2 {
+        line-height: 50px;
+    }
+
+    #contactForm {
+        order: -1;
+    }
+
+    #contactSect h2, h3 {
+        font-size: 5vw;
+        background-color: #dbccd9;
+        border: solid 3px #3a1348;
+        padding: 10px 0 10px 0;
+        margin-bottom: 15px;
+    }
+
+
+    #contactSect h3 { 
+        display: block;
+        text-align: center;
+        width: 65%;
+        margin: 0 auto;
+        font-size: 5vw;
+       
+    }
+
+    .contactSlogan {
+        background-color: transparent;
+        border: none;
+        margin-top: 115px;
+    }
+}
+
+@media screen and (min-width: 760px) {
+
+    #contactSect h3 {
+        font-size: 34px;
+        max-width: 232px;
+    }
+ }
+
+ @media screen and (min-width: 854px) {
+
+    #contactSect h2 {
+       
+        line-height: 65px;
+    }
+
+ }
+
+ @media screen and (min-width: 922px) {
+
+    #contactSect h2 {
+
+        padding: 20px 0 20px 0;
+      
+    
+    }
+ }
+
+ @media screen and (min-width: 970px) {
+
+    .contactSlogan {
+        max-width: none;
+    }
+ }
+
+ @media screen and (min-width: 1220px) {
+
+    #contactSect h2 {
+
+        line-height: 70px;
+      
+    
+    }
+
+    @media screen and (min-width: 1288px) {
+
+       .contactSlogan {
+           max-width: 763px;
+
+       }
+    }
+
+    @media screen and (min-width: 1448px) {
+
+        #contactSect h2 {
+            font-size: 4.8vw;
+            line-height: 95px;
+
+        }
+    }
+
+    @media screen and (min-width: 1733px) {
+
+        #contactSect h2 {
+            line-height: 125px;
+
+        }
+    }
 
 /* start of portfolio */
 
@@ -462,3 +645,5 @@ margin-top: 20px;
         max-width: 30%;
     }
 }
+
+/*start of portfolio Template*/
