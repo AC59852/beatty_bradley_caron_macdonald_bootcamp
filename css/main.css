@@ -423,7 +423,7 @@ margin-top: 20px;
     color: #3a1348;
 }
 
-#contactSect h2, h3{
+#contactSect h2, #contactSect h3 {
     text-transform: uppercase;
     color: #3a1348;
 }
@@ -517,7 +517,7 @@ margin-top: 20px;
         order: -1;
     }
 
-    #contactSect h2, h3 {
+    #contactSect h2, #contactSect h3 {
         font-size: 5vw;
         background-color: #dbccd9;
         border: solid 3px #3a1348;
@@ -584,6 +584,7 @@ margin-top: 20px;
       
     
     }
+}
 
     @media screen and (min-width: 1288px) {
 
@@ -647,3 +648,123 @@ margin-top: 20px;
 }
 
 /*start of portfolio Template*/
+
+#heroPortTemp {
+    max-width: 100%;
+}
+
+#heroPortTemp img {
+    width: 100%;
+}
+
+#portTempyBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.traaimages {
+    max-width: 90%;
+}
+
+
+.tempHeading {
+    font-size: 3.5vw;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   
+}
+
+.tempHead2 {
+
+    margin-left: auto;
+    padding-left: 15px;
+    color: #43154c;
+}
+
+.tempHead1 {
+    background-color: rgba(216, 175, 211, 0.6);
+    text-transform: uppercase;
+    font-weight: bold;
+    border: solid 2px #f9f9f9;
+}
+
+.traaimages img {
+    width: 100%;
+}
+
+.traaimages p{
+    width: 80%;
+    font-size: 4vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 5vw;
+}
+
+/*portfolio template queries*/
+
+@media screen and (min-width: 508px) {
+
+.traaimages p {
+    font-size: 20px;
+}
+
+}
+
+@media screen and (min-width: 700px) {
+
+    .traaimages {
+        margin-bottom: 20px;
+    }
+
+
+    .traaimages img {
+
+        width: 40%;
+    }
+
+    
+    .traaimages p {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    .test {
+        width: 50%;
+        margin-left: auto;
+        margin-top: -20%;
+    }
+
+    .tempBlock2 {
+        display: flex;
+    }
+
+    .tempBlock2 .test{
+        margin-top: 0 !important;
+        order: -1;
+        margin-left: 0 !important;
+}
+}
+
+@media screen and (min-width: 1060px) {
+
+    .traaimages img {
+        width: 50%;
+    }
+
+
+    .traaimages p {
+        font-size: 1.5vw;
+        line-height: 2.4vw;
+    }
+
+    .tempBlock1, .tempBlock2, .tempBlock3{
+        margin-bottom: 150px;
+    }
+
+    .tempBlock2 .test {
+        margin-top: 10% !important;
+    }
+}
