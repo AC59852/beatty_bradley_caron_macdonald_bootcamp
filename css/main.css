@@ -40,10 +40,9 @@ body {
         
     
     #hero {
-        height: 150px;
         background-image: url(../images/hero_background.png);
         background-size: cover;
-        width: 100%;
+        max-width: 100%;
     }
     
     .largeLogo {
@@ -54,7 +53,7 @@ body {
       
     .largeLogo img {
        width: 70%;
-       margin: 50px auto;
+       margin: 5% auto;
     }
 
     .ladder {
@@ -82,9 +81,9 @@ body {
 .desc p {
     text-align: center;
     border: solid #6f5279 2px;
-    font-size: 11px;
+    font-size: 3.9vw;
     width: 80%;
-    line-height: 18px;
+    line-height: 3.6vw;
     margin: 0 auto;
     padding: 10px;
 }
@@ -105,6 +104,7 @@ margin-top: 20px;
     text-align: center;
     border-radius: 10px;
     width: 30%;
+    max-width: 178px;
     padding: 10px;
     text-decoration: none;
     height: 18px !important;
@@ -123,7 +123,8 @@ margin-top: 20px;
     width: 58%;
     text-align: center;
     padding-top: 10px;
-    font-size: 12px;
+    font-size: 4vw;
+    line-height: 3.5vw;
     margin: 0 auto;
 }
 
@@ -134,8 +135,7 @@ margin-top: 20px;
 
 
 .ladder2 {
-    background-position: 95% 0;
-    background-size: 17%;   
+    background-position: 95% 0; 
     background-color: #3a1348;
     background-image: url(../images/ladder2.png);
 }
@@ -218,6 +218,70 @@ margin-top: 20px;
 
 .mail img {
     max-width: 100%;
+}
+
+@media screen and (min-width: 376px) {
+    .ladder {
+        background-size: 18%;
+    }
+}
+
+
+@media screen and (min-width: 437px) {
+    .ladder {
+        background-size: 16% !important;
+    }
+}
+
+@media screen and (min-width: 491px) {
+    .ladder {
+        background-size: 13% !important;
+    }
+}
+
+
+@media screen and (min-width: 606px) {
+    .ladder {
+        background-size: 11% !important;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .ladder {
+        background-size: 0 !important;
+    }
+
+    .desc {
+        margin: 0 auto;
+    }
+
+    .desc p{
+        font-size: 2.8vw;
+        line-height: 4vw;
+    }
+
+    .descBtn {
+        line-height: 2vw;
+        margin-bottom: 30px;
+ 
+    }
+
+    .about {
+        padding: 0 !important;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    
+    .descBtn {
+        margin-top: 50px; 
+
+    }
+
+    .btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
 
 /* start of about page */
