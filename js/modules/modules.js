@@ -18,6 +18,13 @@ export default {
         role: "Video Editor",
         bio: "I’m the office Animator and Video Editor. In my spare time I draw backgrounds and character designs and play RPG and RTS video games. I’ve been working in the animation field for past 4 years and have gotten to work on some really cool projects like the Lion Guard TV show for Disney and really enjoy creating things people get inspired by. Also watch out for my quick barrade of arm jokes they don’t stop im sorry but there humerus.",
         image: "luc.png"
+    },
+
+    Kathleen: {
+        name: "Kathleen MacDonald",
+        role: "Designer",
+        bio: "My SUPERPOWER as a Generalist is bringing creative and colorful solutions to any project. I am a constant seeker of new  technology; as well as the best cup of black coffee and Harry Potter paraphenalia. My goal is to work with clients to bring their vision into reality, helping establish brands and build inspiration through my work.",
+        image: "kathleen.png"
     }
 }
 
