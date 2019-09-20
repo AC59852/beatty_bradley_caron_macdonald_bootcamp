@@ -5,7 +5,7 @@ We are a new start up design and development agency committed to creating amazin
 Started in 2019 we formed a full team with a full stack and back-end developer, a designer, front end developer,<br>
  and a motion designer; so we are a full service design agency.<br>
 
-**Installation/Usage**
+**Installation/Usage**<br>
 Must use VSCode; deploy with the go live feature<br>
 git init<br>
 Clone this repository<br>
