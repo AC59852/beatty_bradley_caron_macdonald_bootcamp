@@ -18,5 +18,17 @@ let navMobile = document.querySelector(".hmbMenu"),
 
   navMobile.addEventListener("click", toggleMenu);
 
+  let vidPlay = document.querySelector("#play"),
+      vidPause = document.querySelector("#pause");
+      video = document.querySelector("video");
+
+      vidPlay.addEventListener("click", function() {
+        video.play();
+      });
+
+      vidPause.addEventListener("click", function() {
+        video.pause();
+      });
+
   // errors were forcing the image to not change on toggle since there are about tags in main that are heavilly affecting nav.
   // so (Austin) I moved the menu to this and swapped out the srcs.

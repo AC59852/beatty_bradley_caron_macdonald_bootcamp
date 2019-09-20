@@ -274,21 +274,13 @@
         background-position: 90% 1%;
     }
 
-    .welcome {
-        margin-left: 22%;
-    }
-
-    .portfolio {
-        margin-right: 22% !important;
-    }
-
     .desc h3 {
         font-size: 59px;
         max-width: 666px;
     }
 
     .desc {
-        margin-bottom: 20%;
+        margin-bottom: 20% !important;
     }
 
     .welcome h3 {
@@ -347,6 +339,7 @@
         order: -1;
         margin-left: 0 !important;
 }
+
 #contactSect {
     display: flex;
     flex-direction: row;
