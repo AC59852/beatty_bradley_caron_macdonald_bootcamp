@@ -1,0 +1,100 @@
+.hands {
+    margin-top: 50px;
+}
+
+.hands img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+}
+
+
+.contactSlogan {
+    background-color: #dbccd9;
+    border: solid 2px #611f58;
+}
+
+.contactSlogan h2 {
+    font-size: 12vw;
+    width: 85%;
+    text-align: center;
+    margin: 0  auto;
+    padding: 20px 0 20px 0;
+    line-height: 45px;
+}
+
+.contactSlogan h3 {
+    display: none;
+}
+
+#contactIcon {
+    max-width: 10%;
+    margin: 45px 15px 25px 0;
+}
+
+#contactIcon img {
+    width: 100%;
+}
+
+#contactSect {
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+
+#contactSect h2 {
+    font-family: '3dumb';
+    color: #3a1348;
+}
+
+#contactSect h2, #contactSect h3 {
+    text-transform: uppercase;
+    color: #3a1348;
+}
+
+#contactForm {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; 
+    max-width: 700px;
+}
+
+
+#contactForm input{
+    height: 30px;
+    border: solid 1px #3a1348;
+    font-size: 16px;
+    padding-left: 5px; 
+    margin-bottom: 10px;
+}
+#contactForm textarea{
+    height: 210px;
+    border: solid 1px #3a1348;
+    font-size: 16px;
+    padding-left: 5px; 
+
+}
+
+#contactName, #contactEmail {
+    width: 80%;
+    padding: 6px 0 6px 0;
+}
+
+#submitBtn {
+   text-align: center;
+   width: 25%;
+   margin-left: auto;
+   margin-top: 15px;
+   margin-bottom: 25px;
+   background-color: #dbccd9;
+   height: 25px;
+   padding-top: 2px;
+   border-radius: 50px;
+   max-width: 140px;
+}
+
+#submitBtn a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #3b0c4f;
+}
