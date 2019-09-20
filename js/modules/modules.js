@@ -12,5 +12,6 @@ export default {
         bio: "My name is Patrick Bradley, I’m  20 years old and living in London Ontario. I am mainly focused on motion design and video production, but I am increasingly becoming interested in front end coding. I am a huge fan of Tarantino movies, Nintendo games, anime and I am also a self-taught music producer (although amateur!) I have been editing photos, filming and editing videos since elementary school and combining my knowledge of film, videogames and music is a goal I set for myself every time I design a website.",
         image: "patrick.png"
     },
+    //this is luc's area for the bio page //
 }
 
