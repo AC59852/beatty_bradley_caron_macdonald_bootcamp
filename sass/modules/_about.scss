@@ -89,3 +89,31 @@
 .aboutBtn img {
     width: 100%;
 }
+
+.audioControls {
+    display: flex;
+    position: fixed;
+    top: 1%;
+    left: 5%;
+}
+
+#play, #pause {
+    width: 50px;
+    max-width: 125px;
+    height: 50px;
+    margin: 1px;
+    border: none;
+    background-color: transparent;
+    background-size: contain;
+    cursor: pointer;
+}
+
+#play {
+    background-image: url(../images/play.png);
+     background-repeat: no-repeat; 
+}
+
+#pause {
+    background-image: url(../images/pause.png);
+    background-repeat: no-repeat;
+}

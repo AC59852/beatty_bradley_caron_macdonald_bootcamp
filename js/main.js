@@ -81,4 +81,17 @@ function animationCheck2() {
 
 line4.addEventListener("animationstart", animationCheck);
 line4.addEventListener("animationend", animationCheck2);
+
+  let bckMusic = document.querySelector(".bckMusic"),
+      musicPlay = document.querySelector("#play"),
+      musicPause = document.querySelector("#pause");
+
+      musicPlay.addEventListener("click", function() {
+        bckMusic.src = "assets/bckMusic.mp4";
+        bckMusic.play();
+        bckMusic.volume = 0.1;
+      });
+      musicPause.addEventListener("click", function() {
+        bckMusic.pause();
+      })
 })();
