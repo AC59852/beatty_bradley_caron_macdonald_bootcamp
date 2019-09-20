@@ -1,0 +1,73 @@
+@import 'modules/_nav';
+@import 'modules/_home';
+@import 'modules/_about';
+@import 'modules/_port';
+@import 'modules/_contact';
+@import 'modules/_footer';
+@import 'modules/_queries';
+
+@font-face {
+    font-family: '3dumb';
+    src: url('../fonts/3dumb-webfont.woff') format('woff'),
+         url('../fonts/3dumb-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.hidden {
+        display: none !important;
+    }  
+
+.anim1 {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 101;
+}
+.animation {
+    animation: fillScreen 0.2s ease-out;
+    animation-fill-mode: forwards;
+}
+
+.animation2 {
+    animation: hideScreen 0.6s ease-out;
+    animation-fill-mode: forwards;
+}
+.line0 {
+    height: 400px;
+    animation-fill-mode: forwards;
+}
+
+.line1 {
+    margin-top: 242px;
+    height: 400px;
+    animation-delay: 0.3s;
+}
+.line2 {
+    margin-top: 482px;
+    height: 400px;
+    animation-delay: 0.5s;
+}
+.line3 {
+    margin-top: 724px;
+    height: 400px;
+    animation-delay: 0.7s;
+}
+
+.removeDelay {
+    animation-delay: 0s !important;
+}
+
+@keyframes fillScreen {
+    0% {width: 0%; visibility: hidden;}
+    100% {width: 100%; visibility: visible;}
+}
+
+@keyframes hideScreen {
+    0% {width: 300%; visibility: visible;}
+    100% {width: 0%; visibility: hidden;}
+}

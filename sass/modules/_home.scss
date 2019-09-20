@@ -1,0 +1,132 @@
+#hero {
+    background-image: url(../images/hero_background.png);
+    background-size: cover;
+    max-width: 100%;
+}
+
+.largeLogo {
+    height: auto;
+    display: flex;
+    margin-top: 50px;
+}
+
+  
+.largeLogo img {
+   width: 70%;
+   margin: 5% auto;
+}
+
+.ladder {
+    background-size: 21%;
+    background-repeat: no-repeat;
+    background-image: url(../images/ladder1.png);
+    background-position: 3% 1%;
+}
+
+.desc {
+height: 200px;
+display: flex;
+flex-direction: column;
+width: 70%;
+margin-left: auto;
+margin-bottom: 25px;
+}
+
+.desc h3 {
+text-align: center;
+padding-top: 20px;
+font-size: 6vw;
+padding-bottom: 14px;
+margin: 0 auto;
+}
+
+.desc p {
+text-align: center;
+border: solid #6f5279 2px;
+font-size: 3.9vw;
+width: 80%;
+line-height: 3.6vw;
+margin: 0 auto;
+padding: 10px;
+}
+
+.descBtn {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.teambtn {
+border: solid #611f58 4px;
+background-color: #3a1348;
+color: white;
+}
+
+.btn {
+text-align: center;
+border-radius: 10px;
+width: 30%;
+max-width: 178px;
+padding: 10px;
+text-decoration: none;
+height: 18px !important;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 0.8px;
+}
+
+.btn2 {
+background-color: #fdfcfd;
+border: solid #611f58 4px;
+}
+
+.about {
+height: 60px;
+width: 58%;
+text-align: center;
+padding-top: 10px;
+font-size: 4vw;
+line-height: 3.5vw;
+margin: 0 auto;
+}
+
+.aboutTeam p{
+margin-top: 15px;
+}
+
+
+
+.ladder2 {
+background-position: 95% 0; 
+background-color: #3a1348;
+background-image: url(../images/ladder2.png);
+}
+
+.portfolio {
+margin-left: 0;
+color: white;
+}
+
+.portfolio h3 {
+padding-top: 20px !important;
+margin-bottom: 10px;
+}
+
+.portAbout {
+order: -1;
+color: white;
+margin: 0 auto;
+}
+
+.portText1 {
+border: solid white 2px;
+font-size: 11px;
+width: 80%;
+line-height: 18px;
+margin: 0 auto;
+padding: 10px;
+}
+.show {
+    display: none;
+}
+  

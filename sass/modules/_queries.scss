@@ -1,0 +1,509 @@
+@media screen and (min-width: 424px) {
+    .topNav ul {
+        font-size: 5vw;
+}
+#logoSmall {
+    top: 0;
+}
+}
+
+.mail img {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 376px) {
+    .ladder {
+        background-size: 18% !important;
+    }
+}
+
+
+@media screen and (min-width: 543px) {
+    .ladder {
+        background-size: 16% !important;
+    }
+}
+
+@media screen and (min-width: 491px) {
+    .ladder {
+        background-size: 14% !important;
+    }
+    .desc {
+        margin-bottom: 15%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    
+    .descBtn {
+        margin-top: 50px; 
+
+    }
+
+    .btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .btn {
+        height: 100% !important;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1230px) {
+    .teamBtnCon {
+        margin-bottom: 50px !important;
+    }
+    .descBtn {
+        margin-top: 310px !important;
+    }
+
+    .portAbout {
+        margin-left: 3% !important;
+    }
+
+    .about {
+        line-height: 40px;
+        margin: 0;
+        margin-right: 1%;
+    }
+    .desc p {
+        max-width: 830px;
+    }
+}
+
+@media screen and (min-width: 1386px) {
+    .desc p {
+        font-size: 38px !important;
+    }
+}
+@media screen and (min-width: 1562px) {
+    .teamBtnCon {
+        margin-top: 175px;
+    }
+
+    #logoSmall {
+        top: 2.5% !important;
+        left: 2.5% !important;
+    }
+}
+
+@media screen and (min-width: 1750px) {
+    .desc {
+        margin-bottom: 20%;
+    }
+    .btn {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1886px) {
+    .teamBtnCon {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .aboutText {
+        margin-top: 75px;
+        transition: margin-top 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+}
+@media screen and (min-width: 808px) {
+    .aboutText {
+        max-width: 800px;
+    }
+    #name {
+        font-size: 3vw;
+    }
+    #para, #role {
+        font-size: 2vw;
+    }
+    .aboutBtn {
+        max-width: 75px;
+    }
+    .carousel {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-width: 1334px) {
+    .name p {
+        font-size: 38px;
+    }
+}
+
+@media screen and (min-width: 378px) {
+    .contactSlogan h2 {
+        line-height: 55px;
+    }
+}
+
+@media screen and (min-width: 471px) {
+    .contactSlogan h2 {
+        line-height: 65px;
+    }
+}
+
+@media screen and (min-width: 558px) {
+    .contactSlogan h2 {
+        line-height: 80px;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .contactSlogan h2 {
+        line-height: 95px;
+    }
+}
+
+@media screen and (min-width: 760px) {
+
+    #contactSect h3 {
+        font-size: 34px !important;
+        max-width: 232px;
+    }
+ }
+
+ @media screen and (min-width: 854px) {
+
+    #contactSect h2 {
+       
+        line-height: 65px;
+    }
+
+ }
+
+ @media screen and (min-width: 922px) {
+
+    #contactSect h2 {
+
+        padding: 20px 0 20px 0;
+      
+    
+    }
+ }
+
+ @media screen and (min-width: 970px) {
+
+    .contactSlogan {
+        max-width: none;
+    }
+ }
+
+ @media screen and (min-width: 1220px) {
+
+    #contactSect h2 {
+
+        line-height: 70px;
+      
+    
+    }
+}
+
+    @media screen and (min-width: 1288px) {
+
+       .contactSlogan {
+           max-width: 763px;
+
+       }
+    }
+
+    @media screen and (min-width: 1448px) {
+
+        #contactSect h2 {
+            font-size: 4.8vw;
+            line-height: 95px;
+
+        }
+    }
+
+    @media screen and (min-width: 1733px) {
+
+        #contactSect h2 {
+            line-height: 125px;
+
+        }
+    }
+
+
+@media screen and (min-width: 1122px) {
+    .contact {
+        max-width: 480px;
+    }
+    .contact p {
+        font-size: 26px;
+        line-height: 3vw !important;
+    }
+
+    .footerNav ul {
+        font-size: 30px !important;
+    }
+    .teamBtnCon {
+        margin-top: 75px;
+        margin-left: 5%;
+        max-width: 90%;;
+    }
+
+    .about {
+        font-size: 42px;
+        max-width: 660px;
+    }
+    .portBtnCon {
+        margin-right: 5%;
+    }
+    .ladder1 {
+        background-size: 5% !important;
+        background-position: 6% 1%;
+    }
+
+    .ladder2 {
+        background-size: 5% !important;
+        background-position: 90% 1%;
+    }
+
+    .welcome {
+        margin-left: 22%;
+    }
+
+    .portfolio {
+        margin-right: 22% !important;
+    }
+
+    .desc h3 {
+        font-size: 59px;
+        max-width: 666px;
+    }
+
+    .desc {
+        margin-bottom: 20%;
+    }
+
+    .welcome h3 {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .portBtn a img {
+        max-width: 350px;
+    }
+    .portBtn {
+        max-width: 30%;
+    }
+}
+
+
+@media screen and (min-width: 508px) {
+
+.traaimages p {
+    font-size: 20px;
+}
+
+}
+
+@media screen and (min-width: 700px) {
+
+    .traaimages {
+        margin-bottom: 20px;
+    }
+
+
+    .traaimages img {
+
+        width: 40%;
+    }
+
+    
+    .traaimages p {
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+
+    .test {
+        width: 50%;
+        margin-left: auto;
+        margin-top: -20%;
+    }
+
+    .tempBlock2 {
+        display: flex;
+    }
+
+    .tempBlock2 .test{
+        margin-top: 0 !important;
+        order: -1;
+        margin-left: 0 !important;
+}
+#contactSect {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+#logoSmall img {
+    width: 35%;
+}
+
+.contactSlogan h2 {
+    line-height: 50px;
+}
+
+#contactForm {
+    order: -1;
+}
+
+#contactSect h2, #contactSect h3 {
+    font-size: 5vw;
+    background-color: #dbccd9;
+    border: solid 3px #3a1348;
+    padding: 10px 0 10px 0;
+    margin-bottom: 15px;
+}
+
+
+#contactSect h3 { 
+    display: block;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    font-size: 5vw;
+   
+}
+
+.contactSlogan {
+    background-color: transparent;
+    border: none;
+    margin-top: 115px;
+}
+.ladder {
+    background-size: 0 !important;
+}
+
+.topNav ul {
+    font-size: 3.5vw;
+}
+
+.hambMenu {
+    margin-left: 90% !important;
+}
+
+
+.ladder2 {
+    padding-bottom: 45px;
+}
+
+.desc {
+    margin: 0 auto 15%;
+}
+
+.desc p{
+    font-size: 2.8vw;
+    line-height: 4vw;
+}
+
+.descBtn {
+    line-height: 2vw;
+    margin-bottom: 30px;
+
+}
+
+.about {
+    padding: 0 !important;
+}
+}
+
+@media screen and (min-width: 1060px) {
+
+    .traaimages img {
+        width: 50%;
+    }
+
+    .hmbMenu {
+        display: none;
+    }
+
+
+    .traaimages p {
+        font-size: 1.5vw;
+        line-height: 2.4vw;
+    }
+
+    .tempBlock1, .tempBlock2, .tempBlock3{
+        margin-bottom: 150px;
+    }
+
+    .tempBlock2 .test {
+        margin-top: 10% !important;
+    }
+    .portBtn a img {
+        max-width: 400px !important;
+    }
+    .mail {
+        display: none;
+    }
+
+
+    .footerNav ul {
+        width: 100% !important;
+        margin-top: 70px;
+    }
+    .topNav {
+        position: relative;
+        overflow-x: visible;
+        background-color: transparent !important;
+        z-index: 100 !important;
+    }
+
+    .topNav ul {
+        top: 0;
+        font-size: 2.2vw;
+    }
+
+    .topNav ul li a{
+        color: #3a1348;
+    }
+
+    .topNav ul li {
+        padding: 0;
+    }
+    .navCon {
+       display: flex;
+       margin-left: auto;
+       justify-content: space-evenly;
+       width: 70%;
+    }
+
+    #logoSmall {
+        top: 1.5%;
+        left: 1.5%;
+    }
+    .logoText {
+        display: block;
+    }
+    .carousel {
+        max-width: 70%;
+    }
+
+    #role {
+        font-size: 2vw;
+        
+    }
+    #para {
+        line-height: 2.8vw;
+        position: relative;
+        top: 8%;
+    }
+    .carousel {
+        display: flex !important;
+    }
+
+    .name {
+        font-size: 3vw;
+    }
+}

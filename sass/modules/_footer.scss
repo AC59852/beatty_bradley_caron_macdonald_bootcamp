@@ -1,0 +1,42 @@
+.companyGen {
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column !important; 
+    max-width: 50%;
+}
+
+.contact p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3.7vw;
+    margin-top: 16px;
+    line-height: 5vw;
+}
+.contact p span {
+    display: inline-block;
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto auto; 
+}
+
+.socials img {
+    width: 23%;
+    max-width: 50px;
+}
+
+.mail {
+    width: 50%;
+    max-width: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

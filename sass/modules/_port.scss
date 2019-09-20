@@ -1,0 +1,73 @@
+#portGallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 75px auto;
+}
+
+.portBtn {
+    max-width: 40%;
+    margin-bottom: 35px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 4px 10px 0 rgba(0,0,0,0.2) !important;
+}
+
+.portBtn a img {
+    width: 100%;
+    max-width: 240px;
+}
+
+#heroPortTemp {
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+#heroPortTemp img {
+    width: 100%;
+}
+
+#portTempyBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.traaimages {
+    max-width: 90%;
+}
+
+
+.tempHeading {
+    font-size: 3.5vw;
+    margin-top: 20px;
+    margin-bottom: 30px;
+   
+}
+
+.tempHead2 {
+
+    margin-left: auto;
+    padding-left: 15px;
+    color: #43154c;
+}
+
+.tempHead1 {
+    background-color: rgba(216, 175, 211, 0.6);
+    text-transform: uppercase;
+    font-weight: bold;
+    border: solid 2px #f9f9f9;
+}
+
+.traaimages img {
+    width: 100%;
+}
+
+.traaimages p{
+    width: 80%;
+    font-size: 4vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 5vw;
+}

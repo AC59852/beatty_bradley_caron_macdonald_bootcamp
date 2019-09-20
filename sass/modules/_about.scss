@@ -1,0 +1,91 @@
+.aboutHero {
+    background-image: url(../images/kat_bck.jpg);
+    background-size: cover;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+    position: relative;
+    top: 20px;
+}
+.aboutMain {
+    display: flex;
+    padding-top: 75px;
+    justify-content: space-around;
+}
+
+.aboutText {
+    width: 45%;
+}
+
+.aboutText h2, h4 {
+    margin-bottom: 4px;
+    padding: 3px;
+}
+
+#name, #logo, #para {
+    border: solid white 2px;
+}
+
+.aboutPerson {
+    width: 50%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.character {
+    max-width: 100%;
+}
+
+.character img {
+    width: 100%;
+}
+
+#name {
+    background-color: rgba(184, 153, 204, 0.3);
+    width: 88%;
+}
+
+#role {
+    background-color: rgba(184, 153, 204, 0.3);
+    width: 94%;
+}
+
+#para {
+    background-color: rgba(184, 153, 204, 0.3);
+    padding: 10px 5px 20px 5px;
+    line-height: 3.4vw;
+}
+.aboutText h2 {
+    font-size: 4vw;
+}
+
+.aboutText h4 {
+    font-size: 2.5vw;
+}
+
+.aboutText p {
+    font-size: 3vw;
+}
+
+.name {
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    padding: 5px 9px 5px 9px;
+    margin-top: 65px;
+    font-size: 5vw;
+}
+
+.aboutBtn {
+    max-width: 10%;
+}
+
+.about1 {
+    transform: scaleX(-1);
+}
+
+.aboutBtn img {
+    width: 100%;
+}
