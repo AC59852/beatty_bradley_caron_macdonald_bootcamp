@@ -13,7 +13,7 @@ body {
 }
 
 .hidden {
-        display: none;
+        display: none !important;
     }
 
     .show {
@@ -551,13 +551,24 @@ margin-top: 20px;
 }
 
 .name {
-    background-color: lightgray;
-    opacity: 0.4;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
     padding: 5px 9px 5px 9px;
+    margin-top: 65px;
 }
 
-.name p {
-    font-size: 3vw;
+.name {
+    font-size: 5vw;
+}
+
+@media screen and (min-width: 1060px) {
+    .carousel {
+        display: flex !important;
+    }
+
+    .name {
+        font-size: 3vw;
+    }
 }
 
 .name2, .name4 {
@@ -576,7 +587,7 @@ margin-top: 20px;
 }
 
 /* about media queries */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 400px) {
     .aboutText {
         margin-top: 75px;
         transition: margin-top 1s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -606,6 +617,7 @@ margin-top: 20px;
         position: relative;
         overflow-x: visible;
         background-color: transparent !important;
+        z-index: 100 !important;
     }
 
     .topNav ul {
@@ -1079,4 +1091,54 @@ margin-top: 20px;
     .tempBlock2 .test {
         margin-top: 10% !important;
     }
+}
+
+.anim1 {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 101;
+}
+.animation {
+    animation: fillScreen 0.2s ease-out;
+    animation-fill-mode: forwards;
+}
+
+.animation2 {
+    animation: hideScreen 0.6s ease-out;
+    animation-fill-mode: forwards;
+}
+.line0 {
+    height: 400px;
+    animation-fill-mode: forwards;
+}
+
+.line1 {
+    margin-top: 242px;
+    height: 400px;
+    animation-delay: 0.3s;
+}
+.line2 {
+    margin-top: 482px;
+    height: 400px;
+    animation-delay: 0.5s;
+}
+.line3 {
+    margin-top: 724px;
+    height: 400px;
+    animation-delay: 0.7s;
+}
+
+.removeDelay {
+    animation-delay: 0s !important;
+}
+
+@keyframes fillScreen {
+    0% {width: 0%; visibility: hidden;}
+    100% {width: 100%; visibility: visible;}
+}
+
+@keyframes hideScreen {
+    0% {width: 300%; visibility: visible;}
+    100% {width: 0%; visibility: hidden;}
 }
