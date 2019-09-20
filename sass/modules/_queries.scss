@@ -101,6 +101,12 @@
     }
 }
 
+@media screen and (min-width: 1845px) {
+    .portBtnCon {
+        margin-top: 350px !important;
+    }
+}
+
 @media screen and (min-width: 1886px) {
     .teamBtnCon {
         margin-top: 200px;
@@ -419,6 +425,19 @@
 }
 
 @media screen and (min-width: 1060px) {
+
+    #hero {
+        background-image: none;
+        max-width: 100%;
+        margin-top: 50px;
+        margin-bottom: -20%;
+    }
+
+    #hero video {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+    }
 
     .traaimages img {
         width: 50%;
