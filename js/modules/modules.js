@@ -12,5 +12,12 @@ export default {
         bio: "My name is Patrick Bradley, I’m  20 years old and living in London Ontario. I am mainly focused on motion design and video production, but I am increasingly becoming interested in front end coding. I am a huge fan of Tarantino movies, Nintendo games, anime and I am also a self-taught music producer (although amateur!) I have been editing photos, filming and editing videos since elementary school and combining my knowledge of film, videogames and music is a goal I set for myself every time I design a website.",
         image: "patrick.png"
     },
+    
+    Lucas: {
+        name: "Lucas Beatty",
+        role: "Video Editor",
+        bio: "I’m the office Animator and Video Editor. In my spare time I draw backgrounds and character designs and play RPG and RTS video games. I’ve been working in the animation field for past 4 years and have gotten to work on some really cool projects like the Lion Guard TV show for Disney and really enjoy creating things people get inspired by. Also watch out for my quick barrade of arm jokes they don’t stop im sorry but there humerus.",
+        image: "luc.png"
+    }
 }
 
