@@ -84,14 +84,19 @@ line4.addEventListener("animationend", animationCheck2);
 
   let bckMusic = document.querySelector(".bckMusic"),
       musicPlay = document.querySelector("#play"),
-      musicPause = document.querySelector("#pause");
+      musicPause = document.querySelector("#pause"),
+      volumeCon = document.querySelector("#slider");
 
       musicPlay.addEventListener("click", function() {
         bckMusic.src = "assets/bckMusic.mp4";
         bckMusic.play();
-        bckMusic.volume = 0.1;
+        bckMusic.volume = 0.8;
       });
       musicPause.addEventListener("click", function() {
         bckMusic.pause();
-      })
+      });
+
+      volumeCon.addEventListener('change', function() {
+        bckMusic.volume = this.value / 100;
+      });
 })();

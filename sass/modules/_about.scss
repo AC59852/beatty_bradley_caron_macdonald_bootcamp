@@ -93,6 +93,8 @@
 .audioControls {
     display: flex;
     position: fixed;
+    flex-wrap: wrap;
+    width: 140px;
     top: 1%;
     left: 5%;
 }
